@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Context>
+    <Resource
+            name="jdbc/MysqlDB"
+            auto="Container"
+            type="javax.sql.DataSource"
+            username="admin"
+            password="dlsdl123"
+            driverClassName="com.mysql.cj.jdbc.Driver"
+            factory="org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory"
+            url="jdbc:mysql://simon-database.cgfincfn6t0x.ap-northeast-2.rds.amazonaws.com:3306/jsp?serverTimezone=UTC"
+            maxActive="500" />
+</Context>
